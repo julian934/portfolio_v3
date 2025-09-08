@@ -33,9 +33,9 @@ const Gam3r_Network = (props: Props) => {
             <div className='flex ' >
                 <Image className='md:h-28 md:w-36' src={Julians_Logo} alt='Logo' />
             </div>
-            <div className='flex justify-around self-center ' >
-              <button className='text-white max-sm:invisible' >dark/light mode</button>
-              <div className='max-sm:w-20 max-sm:h-10 max-sm:z-50 max-sm:px-2 ' >
+            <div className='flex justify-around self-center md:h-8' >
+              <button className='text-white invisible' >dark/light mode</button>
+              <div className='max-sm:w-20 h-10 max-sm:z-50 max-sm:px-2  ' >
                  <NavBar/>
               </div>
             

@@ -17,7 +17,7 @@ const NavBar = (props: Props) => {
   }
   console.log('Testing NavBar: ', ctx.navStatus);
   return (
-    <div className=' bg-white p-2' > 
+    <div className=' bg-white rounded-md p-2' > 
       
       <button className='' onClick={changeNavStatus} >
         {/*active?<motion.div>
