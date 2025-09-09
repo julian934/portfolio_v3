@@ -48,8 +48,9 @@ const Contact = (props: Props) => {
                 <Image className='md:h-28 md:w-36' src={Julians_Logo} alt='Logo' />
             </div>
             </Link>
-            <div className='flex justify-around self-center border-2 border-white' >
-              <button className='text-white' >dark/light mode</button>
+            <div className='flex justify-around self-center ' >
+              
+              {/* <button className='text-white' >dark/light mode</button>*/}
             <NavBar/>
             </div>
             
@@ -110,7 +111,7 @@ const Contact = (props: Props) => {
 
           </motion.div>}
      
-      <div className=' flex flex-col max-sm:h-full border-2 border-white self-center  flex-col w-full' >
+      <div className=' flex flex-col max-sm:h-full  self-center  flex-col w-full' >
         <div className=' flex flex-col  justify-between self-center w-1/2 max-sm:w-5/6 space-y-4 ' >
         <h1 className=' text-4xl ' > Contact </h1>
         <hr className='border-2 border-white' />
@@ -126,7 +127,7 @@ const Contact = (props: Props) => {
               }
              }} ><a href="mailto:jborner111@gmail.com" className=' hover:text-yellow-600  text-xl self-start' onClick={()=>setActiveForm(!activeForm)} >Mail</a></motion.div>
             <div className='flex justify-self-around flex-row  w-2/3 ' >
-              <h1 className=' h-full justify-self-end text-xl'  >Social Medias</h1>
+              <h1 className=' h-full justify-self-end text-lg'  >Social Medias</h1>
               <div className='flex flex-col w-1/2' >
               <motion.div className='flex  self-center ' >
                    <Link className='flex  ' href='/' ><motion.div className='flex justify-self-around w-full'><Image className='rotate-45 ' src={triangle} alt='selector' /><motion.div  className='' whileHover='active' variants={{

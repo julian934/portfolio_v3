@@ -17,16 +17,16 @@ const NavBar = (props: Props) => {
   }
   console.log('Testing NavBar: ', ctx.navStatus);
   return (
-    <div className=' bg-white rounded-md p-2' > 
+    <div className=' bg-white rounded-md hover:bg-yellow-500 h-10 w-10' > 
       
-      <button className='' onClick={changeNavStatus} >
+      <button className='relative top-2  left-2' onClick={changeNavStatus} >
         {/*active?<motion.div>
           
 
         </motion.div>:<motion.div className='' >
           <h1>Inactive Nav</h1>
           </motion.div>*/}
-          <Image className='w-8 h-8' src={MenuIcon} alt='NavBar Menu' />
+          <Image className='w-6 h-6 ' src={MenuIcon} alt='NavBar Menu' />
       </button>
       </div>
   )
