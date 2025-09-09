@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
+//type Props = {}
 
-const NavModal = (props: Props) => {
+const NavModal = () => {
   return (
     <div>NavModal</div>
   )

@@ -7,14 +7,14 @@ import Link from 'next/link'
 import Julians_Logo from '@/app/lib/utils/images/Julian_Borner_Logo.png'
 import {motion} from "motion/react"
 import triangle from '@/app/lib/utils/images/triangle.png'
-import { useState,useEffect,useContext } from 'react'
+import { useState,useContext } from 'react'
 import { StoreStateContext } from '../lib/context/storeContext'
-type Props = {}
+//type Props = {}
 
-const Home = (props: Props) => {
-    const [active,setActive]=useState<boolean>(false);
-    const [projActive,setProjActive]=useState<boolean>(false);
-    const [aboutActive, setAboutActive]=useState<boolean>(false);
+const Home = () => {
+  //  const [active,setActive]=useState<boolean>(false);
+   // const [projActive,setProjActive]=useState<boolean>(false);
+   // const [aboutActive, setAboutActive]=useState<boolean>(false);
     
 
     const ctx=useContext(StoreStateContext);

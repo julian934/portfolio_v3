@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
+//type Props = {}
 
-const NavSvg = (props: Props) => {
+const NavSvg = () => {
   return (
     <div>NavSvg</div>
   )

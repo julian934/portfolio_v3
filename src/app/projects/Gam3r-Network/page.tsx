@@ -7,23 +7,23 @@ import Link from 'next/link'
 import Julians_Logo from '@/app/lib/utils/images/Julian_Borner_Logo.png'
 import {motion} from "motion/react"
 import triangle from '@/app/lib/utils/images/triangle.png'
-import { useState,useEffect,useContext } from 'react'
+import { useContext } from 'react'
 import { StoreStateContext } from '../../lib/context/storeContext'
 import Thumbnail from '@/app/lib/utils/images/Gam3rs/revised/Gam3rs_Desk_Home.png'
 import Home_Mobile from '@/app/lib/utils/images/Gam3rs/revised/Gam3rs_mobile_home.png'
 
 import Forums from '@/app/lib/utils/images/Gam3rs/revised/Gam3rs_Desk_Forums.png'
 import Mobile_Forums from '@/app/lib/utils/images/Gam3rs/revised/gam3rs_mobile_forums.png'
-import Videos from '@/app/lib/utils/images/Gam3rs/Gam3rs Videos.png'
+//import Videos from '@/app/lib/utils/images/Gam3rs/Gam3rs Videos.png'
 import Games from '@/app/lib/utils/images/Gam3rs/Gam3rs_Games.png'
 import Mobile_Games from '@/app/lib/utils/images/Gam3rs/revised/Gam3rs_mobile_home.png'
 //import Games_Mobile from '@/app/lib/utils/images/Gam3rs/'
-import Upload from '@/app/lib/utils/images/Gam3rs/Gam3rs_Upload.png'
+//import Upload from '@/app/lib/utils/images/Gam3rs/Gam3rs_Upload.png'
 
 
-type Props = {}
+//type Props = {}
 
-const Gam3r_Network = (props: Props) => {
+const Gam3r_Network = () => {
    const ctx=useContext(StoreStateContext);
   return (
     <div>

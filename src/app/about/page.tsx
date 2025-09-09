@@ -7,7 +7,7 @@ import Link from 'next/link'
 import Julians_Logo from '@/app/lib/utils/images/Julian_Borner_Logo.png'
 import {motion} from "motion/react"
 import triangle from '@/app/lib/utils/images/triangle.png'
-import { useState,useEffect,useContext } from 'react'
+import { useContext } from 'react'
 import { StoreStateContext } from '../lib/context/storeContext'
 import JB_Professional_Pic from '@/app/lib/utils/images/Julian_Borner_Professional_Profile_Pic.jpg'
 import HTML from '@/app/lib/utils/images/icons/icons8-html-50.png'
@@ -21,9 +21,9 @@ import Solidity from '@/app/lib/utils/images/icons/icons8-solidity-50.png'
 import UH_Logo from '@/app/lib/utils/images/icons/University_of_Houston_seal.svg.png'
 import JS_Cert from '@/app/lib/utils/images/icons/jse_40_01.png'
 
-type Props = {}
+//type Props = {}
 
-const About = (props: Props) => {
+const About = () => {
     const ctx=useContext(StoreStateContext);
   return (
     <div>

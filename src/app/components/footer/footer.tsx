@@ -7,9 +7,9 @@ import gmail from '@/app/lib/utils/images/gmailIcon.png'
 import linkedin from '@/app/lib/utils/images/linkedInIcon.png'
 import github from '@/app/lib/utils/images/githubIcon.png'
 
-type Props = {}
+//type Props = {}
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div className=' flex justify-between w-full md:w-1/2  rounded-md opacity-75' >
         

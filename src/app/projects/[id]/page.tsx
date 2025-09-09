@@ -1,9 +1,9 @@
 'use client'
 import React from 'react'
 
-type Props = {}
+//type Props = {}
 
-const Project = (props: Props) => {
+const Project = () => {
   return (
     <div>page</div>
   )

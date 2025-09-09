@@ -7,7 +7,7 @@ import Link from 'next/link'
 import Julians_Logo from '@/app/lib/utils/images/Julian_Borner_Logo.png'
 import {motion} from "motion/react"
 import triangle from '@/app/lib/utils/images/triangle.png'
-import { useState,useEffect,useContext } from 'react'
+import { useContext } from 'react'
 import { StoreStateContext } from '../../lib/context/storeContext'
 import home_page from '@/app/lib/utils/images/ETQ_Clone/revised/ETQ_Amsterdam_Clone.png'
 import home_mobile from '@/app/lib/utils/images/ETQ_Clone/revised/Home_Mobile.png'
@@ -19,9 +19,9 @@ import product_mobile from '@/app/lib/utils/images/ETQ_Clone/revised/product_pag
 import checkout_desk from '@/app/lib/utils/images/ETQ_Clone/revised/checkout_page_desk.png'
 import checkout_mobile from '@/app/lib/utils/images/ETQ_Clone/revised/checkout_page_mobile.png'
 
-type Props = {}
+//type Props = {}
 
-const ETQ_Clone = (props: Props) => {
+const ETQ_Clone = () => {
    const ctx=useContext(StoreStateContext);
   return (
     <div>
