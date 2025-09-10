@@ -28,7 +28,8 @@ const Home = () => {
                 </Link>
             </div>
             <div className='flex justify-around self-center z-[9999]' >
-              <button className='text-white' >dark/light mode</button>
+             
+              {/*  <button className='text-white' >dark/light mode</button>*/}
             <NavBar/>
             </div>
             
