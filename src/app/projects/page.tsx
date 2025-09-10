@@ -7,14 +7,14 @@ import Link from 'next/link'
 import Julians_Logo from '@/app/lib/utils/images/Julian_Borner_Logo.png'
 import {motion} from "motion/react"
 import triangle from '@/app/lib/utils/images/triangle.png'
-import { useState,useEffect,useContext } from 'react'
+import { useState,useContext } from 'react'
 import { StoreStateContext } from '../lib/context/storeContext'
 import ETQ from '@/app/lib/utils/images/ETQ_Amsterdam_Clone.jpg'
 import Gam3rs from '@/app/lib/utils/images/Gam3rs/Gam3rs_thumbnail_pic.png'
 
-type Props = {}
+//type Props = {}
 
-const Projects = (props: Props) => {
+const Projects = () => {
   const ctx=useContext(StoreStateContext);
   const [etq_state,setETQState]=useState<boolean | null | undefined>(null);
   const [gam3r_state, setGam3rState]=useState<boolean | null>(null);

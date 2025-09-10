@@ -1,7 +1,7 @@
 import React from 'react'
 
 //type Props = {}
-
+/*
 const Nav1 = () => {
   return (
     <div>Nav1
@@ -12,3 +12,4 @@ const Nav1 = () => {
     </div>
   )
 }
+  */

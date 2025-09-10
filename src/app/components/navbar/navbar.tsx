@@ -2,13 +2,13 @@
 import React,{useState,useEffect,useContext} from 'react'
 import { StoreStateContext } from '@/app/lib/context/storeContext'
 import Image from 'next/image'
-import Link from 'next/link'
-import {motion} from "motion/react"
+//import Link from 'next/link'
+//import {motion} from "motion/react"
 import MenuIcon from '@/app/lib/utils/images/icons8-menu-50.png'
 
-type Props = {}
+//type Props = {}
 
-const NavBar = (props: Props) => {
+const NavBar = () => {
   const [active,setActive]=useState<any>(null);
   const ctx=useContext(StoreStateContext);
   const changeNavStatus=()=>{

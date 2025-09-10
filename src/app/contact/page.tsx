@@ -4,26 +4,26 @@ import React from 'react'
 import NavBar from '../components/navbar/navbar'
 import Footer from '../components/footer/footer'
 import Image from 'next/image'
-import { useState,useEffect,useContext } from 'react'
+import { useState,useContext } from 'react'
 import { useRef } from 'react'
 import Link from 'next/link'
 import Julians_Logo from '@/app/lib/utils/images/Julian_Borner_Logo.png'
 import {motion} from "motion/react"
 import triangle from '@/app/lib/utils/images/triangle.png'
 import { StoreStateContext } from '../lib/context/storeContext'
-import emailjs from '@emailjs/browser'
+//import emailjs from '@emailjs/browser'
 
 
-type Props = {}
+//type Props = {}
 
-const Contact = (props: Props) => {
+const Contact = () => {
   const form=useRef<any>(null);
   const name=useRef<any>(null);
   const email=useRef<any>(null);
   const message=useRef<any>(null);
   const [activeForm,setActiveForm]=useState<boolean | null | undefined>(null);
    const ctx=useContext(StoreStateContext);
-
+/*
    const submitForm=(e:any)=>{
     e.preventDefault();
     const data={
@@ -40,6 +40,7 @@ const Contact = (props: Props) => {
     console.log('FAILED...', error.text);
   })
    }
+  */
   return (
     <div className='' >
       <div className='flex justify-between md:self-center px-8' >
