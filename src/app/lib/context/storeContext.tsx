@@ -22,8 +22,14 @@ export const StoreStateContextProvider:FC<StoreStateContextProviderProps>=({chil
 
     const navSet=(status:boolean | null | undefined)=>{
         //  setNavStatus(!status);
-        status!=undefined && status==false && setNavStatus(!status);
-        status!=undefined && status==true && setNavStatus(!status);
+       // status!=undefined && status==false && setNavStatus(!status);
+       // status!=undefined && status==true && setNavStatus(!status);
+       if (status === false) {
+         setNavStatus(true);
+        } else if (status === true) {
+          setNavStatus(false);
+           }
+
     }
     return (
     <StoreStateContext.Provider 

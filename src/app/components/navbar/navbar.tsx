@@ -9,7 +9,7 @@ import MenuIcon from '@/app/lib/utils/images/icons8-menu-50.png'
 //type Props = {}
 
 const NavBar = () => {
-  const [active,setActive]=useState<any>(null);
+  const [active,setActive]=useState<boolean>(false);
   const ctx=useContext(StoreStateContext);
   const changeNavStatus=()=>{
     setActive(!active)
