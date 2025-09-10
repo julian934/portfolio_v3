@@ -138,7 +138,7 @@ const Gam3r_Network = () => {
                   featuring user account creation via the Next-Auth Api, video uploads utilizing the MUX video Api, 
                   forum creation and an upcoming built-in webshop utilizing the Stripe Api.
                    Formulated a project plan, complete with a timeline and budget, 
-                   to ensure the project's completion within the designated time frame.
+                   to ensure the project&apos;s completion within the designated time frame.
 
                 </p>
                  <Link className='flex justify-self-center p-4 ' href='https://www.gam3rnetwork.com' >

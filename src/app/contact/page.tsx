@@ -5,7 +5,7 @@ import NavBar from '../components/navbar/navbar'
 import Footer from '../components/footer/footer'
 import Image from 'next/image'
 import { useState,useContext } from 'react'
-import { useRef } from 'react'
+//import { useRef } from 'react'
 import Link from 'next/link'
 import Julians_Logo from '@/app/lib/utils/images/Julian_Borner_Logo.png'
 import {motion} from "motion/react"
@@ -17,10 +17,10 @@ import { StoreStateContext } from '../lib/context/storeContext'
 //type Props = {}
 
 const Contact = () => {
-  const form=useRef<any>(null);
-  const name=useRef<any>(null);
-  const email=useRef<any>(null);
-  const message=useRef<any>(null);
+//  const form=useRef<any>(null);
+//  const name=useRef<any>(null);
+//  const email=useRef<any>(null);
+//  const message=useRef<any>(null);
   const [activeForm,setActiveForm]=useState<boolean | null | undefined>(null);
    const ctx=useContext(StoreStateContext);
 /*

@@ -1,5 +1,5 @@
 'use client'
-import React,{useState,useEffect,useContext} from 'react'
+import React,{useState,useContext} from 'react'
 import { StoreStateContext } from '@/app/lib/context/storeContext'
 import Image from 'next/image'
 //import Link from 'next/link'
